@@ -1,0 +1,354 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+   font-family:  BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+   background-color: #1b1b1b;
+
+}
+.first-head{
+background:  #313131; ;
+/* outline: 2px solid; */
+}
+.first-head div{
+    display: flex;
+    justify-content: center;
+    /* outline: 2px solid; */
+   align-items: center;
+   /* display: grid;
+   font-size: .625rem; */
+   margin: 0 auto;
+   width: 100%;
+   height: 4rem;
+   color: white;
+}
+
+nav{
+    border-top:1px solid #cdcdcd ;
+    border-bottom: 1px solid #cdcdcd;
+    /* position: sticky;
+    top: 1px; */
+
+}
+nav .second-head{
+    padding-left: 2%;
+    padding-right: 2%;
+    /* outline: 2px solid; */
+    display: flex;
+   background-color: #1B1B1B;
+   /* position: fixed; */
+
+}
+nav .second-head .nav-main{
+    width: 100%;
+    /* outline: 2px solid; */
+    display: flex;
+    justify-content: space-between;
+}
+nav .second-head .nav-main .nav-1 ul{
+   display: flex;
+   /* outline: 2px solid; */
+   justify-content: center;
+   align-items: center;
+  
+  
+}
+nav .second-head .nav-main .nav-1 ul li{
+    color: #B3B3B3;
+   list-style: none;
+   padding:0 13px;
+}
+
+
+
+nav .second-head .nav-main .nav-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav .second-head .nav-main .nav-2 .btn1{
+    padding-right: 20px;
+    border: none;
+    display: flex;
+    height: 1.75rem;
+    /* position: relative; */
+    background-color: #1B1B1B;
+    
+}
+nav .second-head .nav-main .nav-2 .btn1 i{
+    position: relative;
+    
+    top: 26%;
+   padding-right: 10px;
+   /* font-size: 0px; */
+   font-size: 20px;
+   color: #B3B3B3;
+   
+}
+nav .second-head .nav-main .nav-2 .btn1 p{
+    font-size: 16px;
+    font-weight: 700;
+    position: relative;
+   bottom: 34%;
+   color:#B3B3B3;
+}
+nav .second-head .nav-main .nav-2 .form{
+    border-radius: 25px;
+    position: relative; 
+    background: grey;
+    height: 29px;
+    margin-right: 20px;
+}
+.form input{
+   background-color: #1B1B1B;
+   border: 1px solid #B3B3B3;
+   border-radius: 50px;
+   padding: 6px 8px;
+  
+}
+
+ .form .btn2{
+   background-color: #1B1B1B;
+   color: #B3B3B3;
+   border-radius: 50%;
+   height: 100%;
+   /* aspect-ratio: 1; */
+   position: absolute;
+   top: 0;
+   right: 0;
+   border: none;
+   
+ }
+ .nav-2 .login{
+    color: #B3B3B3;
+    font-size: small;
+    font-weight: 700;
+    margin-right: 20px;
+ }
+ .nav-2 .btn3{
+   font-weight: 700;
+   border-radius: 22px;
+   height: 40px;
+   margin-right: 20px;
+ }
+
+
+
+
+ /* section start1-------------- */
+ .section-1{
+    /* outline: 2px solid; */
+    background-image: url("./img/mandala\ \(1\).png");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    object-fit: fill;
+    width: 100%;
+    /* position: relative; */
+ }
+ .section-1 .container{
+     position: relative;
+     top:40%;
+     /* left: 0%; */
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .section-1 .container h1{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: -.5px;
+    margin: 0;
+    color:white;
+    position: relative;
+    bottom: 28px;
+    left: 1x;
+    right: 18px;
+ }
+ .section-1 .container p{
+    font-weight: 300;
+    margin: 1rem 0 2rem;
+    color: white;
+    position: relative;
+    bottom: 20px;
+    left: 1x;
+    right: 20px;
+ }
+ .section-1 .container input{
+    margin-left: 50px;
+    border-radius: 10rem;
+    padding: 2rem;
+    width: 100%;
+    background-color: #01010180;
+    height: 50px;
+  
+ }
+ .section-1 .container button{
+    border: none;
+    display: flex;
+   position: relative;
+   left: 100%;
+    top: 50px;
+    background-color: #111010;
+    cursor: pointer;
+    
+ }
+ .section-1 .container button i{
+    font-size: 25px;
+    color: #cdcdcd;
+ }
+
+
+ /* section-3 start ----------*/
+
+ .section-3{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .section-3 .container{
+    /* outline: 2px solid; */
+    padding-left: 3%;
+    padding-right:  3%;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0 1rem;
+ }
+ .section-3 .container  h2{
+    margin-top: 0;
+    font-size: 23px;
+    color: #fff;
+ }
+ .section-3 .container .items{
+    /* background-color: aqua; */
+    display: grid;
+    gap: 1rem;
+    /* grid-auto-flow: row; */
+    max-width: 52rem;
+    grid-template-columns: repeat(2,1fr);
+ }
+ 
+ .section-3 .container .items .box{
+    border: 1px solid #858585 ;
+    border-radius: .5rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+ }
+ .section-3 .container .items .box:hover{
+   box-shadow:  0 1px 6px #fbfbfe33;
+ }
+ .section-3 .container .items .box a{
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+ }
+ .section-3 .container .items .box a:hover{
+    text-decoration: underline;
+    color: #fff;
+ }
+ .section-3 .container .items .box h3{
+    font-weight: 500;
+    font-size: 19.2px;
+    color: #fff;
+    margin: 0 0 1rem;
+ }
+ .section-3 .container .items .box h3:hover{
+    text-decoration: underline;
+    color: #fff;
+ }
+ .section-3 .container .items .box p{
+    color: #fff;
+    font-size: 16px;
+    overflow: hidden;
+    margin: 0;
+ }
+
+ /* section-4 start */
+ .section-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .latest-news{
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
+   max-width: 52rem;
+   width: 100%;
+   padding: 0;
+ }
+ .latest-news h2{
+  color: #fff;
+ }
+ .latest-news .news-list{
+    list-style: none;
+    padding: 0;
+ }
+ .news-item{
+    background-color: #313131;
+    flex-direction: revert;
+    display: flex;
+    justify-content: space-between;
+    padding: .7rem;
+ }
+ .news-title{
+    display: flex;
+    flex-direction: column;
+    gap: .125rem;
+    margin: 0;
+    line-height: 1.2;
+    
+
+ }
+ .news-title span a{
+   color: #fff;
+   text-decoration: none;
+ }
+.news-date{
+    align-items: center;
+    display: flex;
+    font-size: 12px;
+    line-height: 175%;
+    color: #fff;
+ }
+
+ /* footer start---------------- */
+ footer{
+    background-color: #313131;
+ }
+ footer .container{
+    padding: 32px 16px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    border-bottom:1px solid #858585 ;
+ }
+ footer .container .boxes{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-evenly;
+   
+ }
+ footer .container .boxes h1{
+    font-size: 16px;
+    padding-right: 49px;
+    text-align: center;
+ }
+ footer .container .boxes ul li{
+    /* list-style: none; */
+    /* padding-top: 10px; */
+    list-style: none;
+    line-height: 25px;
+    
+ }
